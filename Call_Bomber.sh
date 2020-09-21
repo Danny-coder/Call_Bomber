@@ -4,13 +4,12 @@ echo -e "Danny-Coder \e[5mBlink"
 echo -e "Present \e [5mBlink"
 echo -e "Call_Bomber \e [5mBlink"
 echo 
-read a1
 echo " Installing requirements"
+read a1
 
 apt install figlet toilet python curl -y
 apt install python
 apt install git
-pip install -r requirements.txt
 
 echo "All right!"
 echo 
