@@ -24,6 +24,11 @@ echo
 clear
 echo "Call_Bomber!!"
 
+echo
+echo 
+echo 
+echo
+echo
 
 
 
@@ -44,7 +49,7 @@ echo -e "\e[[|           |   / /  \e[0m"
 echo -e "\e[[|           |  / /   \e[0m"
 echo -e "\e[[|           |  \ \   \e[0m"
 echo -e "\e[[|           |   \ \ \e[0m"
-echo -e "\e[  ___________  | \e[0m"
+echo -e "\e[  ___________| \e[0m"
 echo -e "\e[4;31m[|1 2 3   | \e[0m"
 echo -e "\e[4;31m[|4 5 6   | \e[0m"
 echo -e "\e[4;31m[|7 8 9   | \e[0m"
@@ -54,3 +59,4 @@ echo "Chose a number"
 
 echo "1) For doing Calls"
 echo "2) Exit "
+read ch
