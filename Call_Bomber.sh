@@ -31,6 +31,9 @@ echo "Call_Bomber!!"
 
 
 
+
+
+
 echo -e "\e[ * \e[0m"                              
 echo -e "\e[ *\e[0m"                               
 echo -e "\e[ *\e[0m"
