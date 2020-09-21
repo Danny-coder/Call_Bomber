@@ -1,15 +1,23 @@
 #!/bin/bash
 clear
-echo -e "Danny-Coder \e["
-echo -e "Present \e ["
-echo -e "Call_Bomber \e ["
-echo 
-echo " Installing requirements"
-read a1
-
-apt install figlet toilet python curl -y
+                             echo -e "\e[4;31m Let me introduce \e[0m"
+                              echo -e "\e[4;31m the best call bomb in all world \e[0m"
+                                echo -e "\e[4;31m Call_Bomber !!! \e[0m"
+echo "Premi invio per continuare!!"
+echo 'I requisiti si stanno installando'
+apt install figlet toilet python curl a -y
+pkg install pip
+pip install 3to2
+apt install python3-pip
 apt install python
-apt install git
+echo Questo script è stato creato da me!>update.danny
+
+echo Tutti i requisiti sono stati installati 
+
+echo Per continuare premere il tasto invio!
+read udp
+
+clear
 
 echo "All right!"
 echo 
