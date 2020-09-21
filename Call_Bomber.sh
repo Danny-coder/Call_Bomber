@@ -1,8 +1,8 @@
 #!/bin/bash
 clear
-echo -e "Danny-Coder \e[5mBlink"
-echo -e "Present \e [5mBlink"
-echo -e "Call_Bomber \e [5mBlink"
+echo -e "Danny-Coder \e["
+echo -e "Present \e ["
+echo -e "Call_Bomber \e ["
 echo 
 echo " Installing requirements"
 read a1
@@ -18,9 +18,9 @@ echo
 clear
 echo "Call_Bomber!!"
 
-echo -e "\e[ 0 \e[0m"                              
-echo -e "\e[ 0\e[0m"                               
-echo -e "\e[ 0\e[0m"
+echo -e "\e[ * \e[0m"                              
+echo -e "\e[ *\e[0m"                               
+echo -e "\e[ *\e[0m"
 echo -e "\e[|            \e[0m"
 echo -e "\e[ |             \e[0m"
 echo -e "\e[|____________     / /\e[0m"
