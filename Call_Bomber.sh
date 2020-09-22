@@ -30,6 +30,12 @@ echo
 echo
 echo
 
+cat << Bomb
+O
+|--(
+|
+ \
+ Bomb
 
 
 
@@ -58,5 +64,7 @@ echo -e "\e[4;31m[|* 0 #   | \e[0m"
 echo "Chose a number"
 
 echo "1) For doing Calls"
+read udp
 echo "2) Exit "
 read ch
+
