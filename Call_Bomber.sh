@@ -1,8 +1,7 @@
 #!/bin/bash
 clear
-                             echo -e "\e[4;31m Let me introduce \e[0m"
-                              echo -e "\e[4;31m the best call bomb in all world \e[0m"
-                                echo -e "\e[4;31m Call_Bomber !!! \e[0m"
+echo "😎"
+
 echo 'I requisiti si stanno installando'
 apt install figlet toilet python curl a -y
 pkg install pip
