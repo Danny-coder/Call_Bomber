@@ -17,14 +17,14 @@ echo "/                  \"
 echo "0                   0"
 
 
-echo 'I requisiti si stanno installando'
+echo 'Please wait a moment'
 apt install figlet toilet python curl a -y
 pkg install pip
 pip install 3to2
 apt install python3-pip
 apt install python
 
-echo "Tutti i requisiti sono stati installati"
+echo "Thanks for the patience sir"
 
 echo Press Enter to continue!
 read udp
