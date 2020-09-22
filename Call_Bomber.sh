@@ -24,12 +24,6 @@ echo
 clear
 echo "Call_Bomber!!"
 
-echo
-echo 
-echo 
-echo
-echo
-
 
 
 
