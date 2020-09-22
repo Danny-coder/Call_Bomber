@@ -29,13 +29,13 @@ echo
 echo 
 echo
 echo
-
+":
 cat << Bomb
 O
 |--(
 |
  \
- Bomb
+ Bomb"
 
 
 
@@ -64,7 +64,9 @@ echo -e "\e[4;31m[|* 0 #   | \e[0m"
 echo "Chose a number"
 
 echo "1) For doing Calls"
-read udp
 echo "2) Exit "
 read ch
+if [ $ch -eq 1 ];then
+clear
+echo "CALL-BOMB WILL HELP YOU"
 
