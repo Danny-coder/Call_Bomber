@@ -53,9 +53,15 @@ echo -e "\e[4;31m[|* 0 #   | \e[0m"
 
 echo "Chose a number"
 
+
 echo "1) For doing Calls"
 echo "2) Exit "
-read ch
+
+read Numbers;
+
+case $Numbers in
+1) echo "Thanks, you will not regret this";;
+*) echo "Ok bye, hope to see you very soon!";;
 if [ $ch -eq 1 ];
 then
 
