@@ -1,6 +1,11 @@
 #!/bin/bash
 clear
-echo "😎"
+echo "|                |"
+echo "|  O       O     |"
+echo "|                |"
+echo "|    _______     |"
+echo "|   |       |    |"
+echo "__________________"
 
 echo 'I requisiti si stanno installando'
 apt install figlet toilet python curl a -y
