@@ -2,10 +2,20 @@
 clear
 echo "|                |"
 echo "|  O       O     |"
+echo "|                |               &"
+echo "|    _______     |               |"
+echo "|   |       |    |               |"
+echo "__________________               |"
+echo "|                | --------------|"
 echo "|                |"
-echo "|    _______     |"
-echo "|   |       |    |"
+echo "|                |"
+echo "|                |"
+echo "|                |"
 echo "__________________"
+echo "/                 \" 
+echo "/                  \" 
+echo "0                   0"
+
 
 echo 'I requisiti si stanno installando'
 apt install figlet toilet python curl a -y
