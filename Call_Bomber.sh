@@ -29,16 +29,6 @@ echo
 echo 
 echo
 echo
-":
-cat << Bomb
-O
-|--(
-|
- \
- Bomb"
-
-
-
 
 
 
@@ -66,7 +56,13 @@ echo "Chose a number"
 echo "1) For doing Calls"
 echo "2) Exit "
 read ch
-if [ $ch -eq 1 ];then
-clear
+if [ $ch -eq 1 ];
+then
+
 echo "CALL-BOMB WILL HELP YOU"
+
+else 
+echo "Exit"
+clear
+
 
