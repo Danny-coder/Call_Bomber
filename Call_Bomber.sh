@@ -69,8 +69,21 @@ read Numbers;
 
 case $Numbers in
 1) echo "Thanks, you will not regret this";;
+echo "Insert Country code without +"
+
+read Code;
+
+case $Code in 
+1) echo "+39";;
+*) echo "Lmao nope";;
+esac
+
+
+
+
 *) echo "Ok bye, hope to see you very soon!";;
 esac
+
 
 
 
